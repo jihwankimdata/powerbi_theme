@@ -1,0 +1,97 @@
+﻿{
+    "name": "jihwan_theme",
+    "textClasses": {
+        "callout": {
+            "fontSize": 15
+        }
+    },
+    "dataColors": [
+        "#0058A9",
+        "#49A4FF",
+        "#868686",
+        "#9D9D9D",
+        "#CFCFCF",
+        "#ECECEC",
+        "#FFF3BD",
+        "#FFFAFB"
+    ],
+    "bad": "#FF0000",
+    "neutral": "#FFD200",
+    "good": "#00FF43",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "border": [
+                    {
+                        "show": true,
+                        "radius": 10
+                    }
+                ],
+                "outspacePane": [
+                    {
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        }
+                    }
+                ],
+                "filterCard": [
+                    {
+                        "$id": "Applied",
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#1022E2"
+                            }
+                        },
+                        "foregroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "textSize": 10,
+                        "transparency": 0
+                    },
+                    {
+                        "$id": "Available",
+                        "textSize": 10
+                    }
+                ]
+            }
+        }
+    },
+    "icons": {
+        "custom icon 01": {
+            "url": "data:image/svg+xml;utf8, <svg width='190' height='190' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' overflow='hidden'><g><g><g><g><path d='M34 88C33.4 69.4 34 52.4 44 36 55.2 17.6 73 4 94.6 1.4 116.2-1.2 138 4.4 155.8 16.8 171 28 184 48.2 184 67.6 181.6 52.8 173.2 39.6 160.6 31.2 148 23 132.6 20.2 118 24 104.2 27.2 92.8 37.8 85.2 49.6 77.6 61.4 78 74.4 78 88L104 88 56 136C56 136 16.2 96.2 8 88L34 88Z' fill='%23FF0000'/></g></g></g></g></svg>",
+            "description": "arrow down 01"
+        },
+        "custom icon 02": {
+            "url": "data:image/svg+xml;utf8, <svg width='190' height='190' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' overflow='hidden'><g><g><g><g><path d='M110 30.2C70 30.2 37 61.8 35 101.8L17.2 84C14.8 81.8 11.2 81.8 8.8 84.2 6.6 86.4 6.4 90.2 8.6 92.6L36.8 120.8C37.4 121.4 38 121.8 38.8 122 39 122 39.2 122.2 39.6 122.2L40 122.4 40.6 122.4 41.2 122.4 41.6 122.4C43 122.4 44.4 121.6 45.4 120.6L73.6 92.4C76 90 76 86.2 73.6 84 71.2 81.6 67.4 81.6 65.2 84L47 102.2C48.4 73.8 68.6 50 96.4 43.8 124.2 37.6 152.6 50.8 165.8 76 179 101.2 173.8 132 153 151.4 150.6 153.6 150.4 157.4 152.8 159.8 155 162.2 158.8 162.4 161.2 160.2 183.8 139.2 191.2 106.6 179.8 77.8 168.6 49 140.8 30.2 110 30.2Z' fill='%23FF0000'/></g></g></g></g></svg>",
+            "description": "arrow down 02"
+        },
+        "custom icon 03": {
+            "url": "data:image/svg+xml;utf8, <svg width='190' height='190' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' overflow='hidden'><g><g><g><g><path d='M158 115.6C158.6 97 158 80 148 63.6 136.8 45.2 119 31.6 97.4 29 75.8 26.4 54 32 36.2 44.4 21 55.6 8 75.8 8 95.2 10.4 80.4 18.8 67.2 31.4 58.8 44 50.4 59.4 47.8 74 51.4 87.8 54.6 99.2 65.2 106.8 77 114.4 88.8 114 102 114 115.6L88 115.6 136 163.6C136 163.6 175.8 123.8 184 115.6L158 115.6Z' fill='%23FFC000'/></g></g></g></g></svg>",
+            "description": "arrow down 03"
+        },
+        "custom icon 04": {
+            "url": "data:image/svg+xml;utf8, <svg width='190' height='190' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' overflow='hidden'><g><g><g><g><path d='M183 84.2C180.8 82 177 81.8 174.6 84L156.8 101.8C155 61.8 122 30.2 82 30.2 51.2 30.2 23.4 49 12.2 77.8 1 106.4 8.4 139.2 30.8 160.2 33.2 162.4 37 162.4 39.2 159.8 41.4 157.4 41.4 153.6 39 151.4 18.2 132 13 101 26.2 76 39.4 50.8 68 37.6 95.6 43.8 123.4 50 143.6 74 144.8 102.4L126.6 84C124.2 81.6 120.4 81.6 118.2 84 116 86.4 115.8 90.2 118.2 92.4L146.4 120.6C147.4 121.6 148.8 122.2 150.2 122.4L150.6 122.4 151.2 122.4 151.8 122.4 152.2 122.2C152.4 122.2 152.6 122 152.8 122L152.8 122C153.6 121.8 154.2 121.2 154.8 120.6L183 92.4C185.4 90.2 185.4 86.4 183 84.2Z' fill='%23FFC000'/></g></g></g></g></svg>",
+            "description": "arrow down 04"
+        },
+        "custom icon 05": {
+            "url": "data:image/svg+xml;utf8, <svg width='190' height='190' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' overflow='hidden'><g><g><g><g><path d='M115 172.8C115 172.8 138.2 128.2 78 68.2L58 88 58 20 126 20 107.6 38.4C107.8 38.6 159.8 101 115 172.8Z' fill='%2300B050'/></g></g></g></g></svg>",
+            "description": "arrow up 01"
+        },
+        "custom icon 06": {
+            "url": "data:image/svg+xml;utf8, <svg width='190' height='190' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' overflow='hidden'><g><g><g><g><path d='M154 164C154 164 106 149 106 64L134 64 86 16C86 15.4 38 64 38 64L64 64C64 64.2 71.4 145.2 154 164Z' fill='%2300B0F0'/></g></g></g></g></svg>",
+            "description": "arrow up 02"
+        },
+        "custom icon 07": {
+            "url": "data:image/svg+xml;utf8, <svg width='190' height='190' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' overflow='hidden'><g><g><g><g><path d='M81.6 20.2 108 20.4C111.4 20.4 114 17.8 114 14.4 114 11 111.4 8.4 108 8.4L68 8C66.6 8 65.4 8.4 64.2 9.4 64 9.4 64 9.6 63.8 9.8 63.6 10 63.4 10 63.2 10.4 63.2 10.4 63 10.6 63 10.8 63 10.8 62.8 11 62.8 11.2 62.2 12 62 13 62 14L61.6 54C61.6 57.4 64.2 60 67.6 60 71 60 73.6 57.4 73.6 54L73.8 29.2C105.2 51 120.2 81.6 118.2 120.2 117 139.2 112.4 157.8 104.4 175.2 103 178.2 104.2 181.6 107.2 183 110 184.4 113.6 183.4 115.2 180.4 123.8 161.8 129 141.6 130.2 121 131.8 91.6 124.6 50.4 81.6 20.2Z' fill='%2300B050'/></g></g></g></g></svg>",
+            "description": "arrow up 03"
+        },
+        "custom icon 08": {
+            "url": "data:image/svg+xml;utf8, <svg width='190' height='190' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' overflow='hidden'><g><g><g><g><path d='M62.8 36.4 44 54.6C41.6 57 37.8 56.8 35.6 54.6 33.2 52.2 33.4 48.4 35.6 46.2L64.2 18.2C65.2 17.2 66.4 16.6 67.8 16.6 68 16.6 68.2 16.6 68.4 16.6 68.6 16.6 68.8 16.6 69.2 16.6L69.6 16.6 70 16.6C71 16.8 72 17.4 72.6 18.2L100.6 46.8C103 49.2 102.8 53 100.6 55.2 98.2 57.6 94.4 57.4 92.2 55.2L75 37.6C67.6 75.2 78 107.6 106.2 133.8 120.2 146.6 136.4 156.8 154.2 163.8 157.4 165 159 168.4 157.8 171.4 156.6 174.6 153.2 176.2 150.2 175 131 167.6 113.4 156.6 98.2 142.6 76.4 122.6 53 88 62.8 36.4Z' fill='%2300B0F0'/></g></g></g></g></svg>",
+            "description": "arrow up 04"
+        }
+    }
+}
